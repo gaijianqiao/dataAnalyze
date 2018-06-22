@@ -7,15 +7,16 @@ bArray = lArray.reshape(2,5)
 # print(lArray is bArray)
 # 转置
 btArray = bArray.T
-print(bArray)
-print(btArray)
+# print(bArray)
+# print(btArray)
 
 
 mAArray = np.arange(10).reshape(2,5)
-print(mAArray)
+# print(mAArray)
 mBArray = np.arange(10).reshape(5,2)
-print(mBArray)
-mCArray = mBArray * mAArray
-print(mCArray)
-
-
+# print(mBArray)
+# mCArray = mBArray * mAArray
+# print(mCArray)
+baseArray = np.arange(10)
+rArray = baseArray.resize(2,10)
+print(baseArray)
